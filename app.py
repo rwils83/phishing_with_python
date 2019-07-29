@@ -1,7 +1,7 @@
 import os
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
-from secrets import APIKEY
+from secrets import APiKEY
 message = Mail(
     from_email='from_email@example.com',
     to_emails='to@example.com',
